@@ -164,6 +164,24 @@ body{background-color: white;}
     background-color: #c3dbf2;
     transform: rotate(45deg);
 }
+.blue_8_tale{
+    transform: rotate(-45deg);
+}
+.figure1{
+    transform: rotate(45deg);
+    display: inline-block;
+    color: #fbb040;
+    font-family: PTSans Bold;
+    font-size: 20px;
+}
+.figure12{
+    color: #000;
+    text-align: center;
+    line-height: 20px;
+}
+
+
+
 .figure{
     transform: rotate(-45deg);
     display: inline-block;
@@ -173,7 +191,7 @@ font-size: 20px;
 	}
 .our_decisions{
     margin-top: 150px;
-    height: 400px;
+    height: 105px;
 }
 .all_block3{
     background-color: #ccc;
@@ -200,6 +218,7 @@ font-size: 20px;
 .slider_img{
     margin-top: 40px;
     height: 275px;
+    width: 100%;
 }
 
 .hr{
@@ -215,7 +234,7 @@ font-size: 20px;
 .wrapp img{
     display: block;
     float: left;
-    width: 25%;
+    width: 100%;
 }
 
 .item .wrapp .onhover{
@@ -225,9 +244,9 @@ font-size: 20px;
     box-sizing:border-box;
     transition: all 0.4s ease-in-out;
     height: 275px;
-    display: inline;
     width: 410px;
     position: absolute;
+    float: left;
 }
 
 
@@ -235,8 +254,7 @@ font-size: 20px;
     opacity: 1;
     border:138px solid rgba(0,0,0,0.7);
     position: absolute;
-    width: 410px;
-    height: 275px;
+    width: 23%;
 
 }
 
@@ -318,14 +336,39 @@ font-size: 20px;
 .cont_main {
     padding-left: 0;
 }
+.item{
+    width: 24%;
+    display: inline-block;
+}
+/* Новый идиотский блок */
+.our_decisions, .our_decisions2, .our_decisions3{
+    width: 100%;
+    display: inline-flex;
+}
+.blue8, .blue_10, .blue_8{
+    margin-right: 60px;
+}
+.wrap_dec{
+    display: inline-flex;
+    margin: 0 auto;
+}
 
+.our_decisions2{
+    height: 105px;
+}
+.our_decisions3{
+    height: 970px;
+    background-image: url("../images/vector_dom.jpg");
+    background-size: contain;
+}
 
-
-
-
-
-
-
-
-
-
+.zoloto{
+    background-image: url("../images/our_decisions_1.png");
+    background-repeat: no-repeat;
+    background-position: 22% -14%;
+}
+.snova_zol{
+    background-image: url("../images/our_decisions_2.png");
+    background-repeat: no-repeat;
+    background-position: 80% -14%;
+}
